@@ -1,0 +1,28 @@
+Original Data:
+P1(20) P2(15) P3(20) P4(10) P5(15) P6(20) P7(25) P8(10) 
+
+Merge Sort:
+Merge: P2(15) P1(20) 
+Merge: P4(10) P3(20) 
+Merge: P4(10) P2(15) P1(20) P3(20) 
+Merge: P5(15) P6(20) 
+Merge: P8(10) P7(25) 
+Merge: P8(10) P5(15) P6(20) P7(25) 
+Merge: P4(10) P8(10) P2(15) P5(15) P1(20) P3(20) P6(20) P7(25) 
+
+Final Merge Sort Result:
+P4(10) P8(10) P2(15) P5(15) P1(20) P3(20) P6(20) P7(25) 
+Comparisons: 16
+Stability: Stable
+
+Quick Sort:
+Partition: P4(10) P8(10) P3(20) P1(20) P5(15) P6(20) P7(25) P2(15) 
+Partition: P2(15) P1(20) P5(15) P6(20) P7(25) P3(20) 
+Partition: P1(20) P5(15) P3(20) P7(25) P6(20) 
+Partition: P5(15) P1(20) 
+Partition: P6(20) P7(25) 
+
+Final Quick Sort Result:
+P4(10) P8(10) P2(15) P5(15) P1(20) P3(20) P6(20) P7(25) 
+Comparisons: 18
+Stability: Stable
