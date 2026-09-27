@@ -119,8 +119,8 @@ The C program counts the comparisons performed by both sorting algorithms.
 
 | Algorithm | Number of Comparisons |
 |---|---:|
-Merge Sort | 16
-Quick Sort | 18
+| Merge Sort | 16 |
+| Quick Sort | 18 |
 
 The actual values are taken from the execution of `main.c`.
 
